@@ -35,7 +35,7 @@ canvas {
   right: 20px;
   font-family: Arial, sans-serif;
   font-size: 18px;
-  padding: 10px 20px;
+  padding: 8px 20px;
   background-color: #4CAF50;
   color: rgb(0, 0, 0);
   border: none;
@@ -89,7 +89,7 @@ canvas {
   color: white;
   border: none;
   cursor: pointer;
-  margin: 10px;
+  margin: 5px;
 }
 
 .buttons button:hover {
