@@ -63,7 +63,7 @@ canvas {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 40px;
+  margin-top: 20px;
 }
 
 .playfield {
@@ -83,13 +83,13 @@ canvas {
 }
 
 .buttons button {
-  font-size: 18px;
-  padding: 10px 20px;
+  font-size: 14px;
+  padding: 10px 12px;
   background-color: #4CAF50;
   color: white;
   border: none;
   cursor: pointer;
-  margin: 15px;
+  margin: 10px;
 }
 
 .buttons button:hover {
@@ -97,22 +97,19 @@ canvas {
 }
 
 #drop-btn {
-  width: 200px;
-  padding: 10%;
+  width: 150px;
+  padding: 6px 10px;
 }
 
 #up-btn {
-  width: 100px;
-  padding: 15%;
+  width: 80px;
+  padding: 8px 12px;
 }
 
-#right-btn {
-  padding: 10%;
+#right-btn, #left-btn {
+  padding: 8px 12px;
 }
 
-#left-btn {
-  padding: 10%;
-}
 
 .drop-shadow {
   position: absolute;
